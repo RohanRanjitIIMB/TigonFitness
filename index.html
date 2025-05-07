@@ -70,7 +70,7 @@
 
     .welcome-cta h2 {
       font-size: 2.5em;
-      color: #0056b3; /* Rich blue color */
+      color: #0056b3;
     }
 
     .cta-button {
@@ -99,7 +99,7 @@
     .about-us h2 {
       font-size: 2.5em;
       margin-bottom: 20px;
-      color: #0056b3; /* Rich blue color */
+      color: #0056b3;
     }
 
     .programs {
@@ -111,7 +111,7 @@
     .programs h2 {
       font-size: 2.5em;
       margin-bottom: 30px;
-      color: #0056b3; /* Rich blue color */
+      color: #0056b3;
     }
 
     .flashcards {
@@ -146,7 +146,7 @@
       font-size: 1.5em;
       margin-top: 15px;
       margin-bottom: 10px;
-      color: #0056b3; /* Rich blue color */
+      color: #0056b3;
     }
 
     .flashcard p {
@@ -163,7 +163,7 @@
       font-size: 2.5em;
       text-align: center;
       margin-bottom: 20px;
-      color: #0056b3; /* Rich blue color */
+      color: #0056b3;
     }
 
     .testimonial-carousel {
@@ -218,7 +218,7 @@
     .online-training h2 {
       font-size: 2.3em;
       margin-bottom: 20px;
-      color: #0056b3; /* Rich blue color */
+      color: #0056b3;
     }
 
     .online-training img {
@@ -285,7 +285,7 @@
       text-align: center;
       font-size: 2.5em;
       margin-bottom: 30px;
-      color: #0056b3; /* Rich blue color */
+      color: #0056b3;
     }
     
     .gallery-grid {
@@ -324,7 +324,7 @@
       text-align: center;
       font-size: 2.3em;
       margin-bottom: 30px;
-      color: #0056b3; /* Rich blue color */
+      color: #0056b3;
     }
 
     /* Why Choose Us Section */
@@ -332,7 +332,109 @@
       font-size: 2.5em;
       text-align: center;
       margin-bottom: 30px;
-      color: #0056b3; /* Rich blue color */
+      color: #0056b3;
+    }
+
+    /* Contact Section */
+    .contact-section {
+      background-color: #f8f9fa;
+      padding: 60px 20px;
+    }
+
+    .contact-section h2 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 40px;
+      color: #0056b3;
+    }
+
+    .contact-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .contact-info {
+      flex: 1;
+      min-width: 300px;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .contact-info h3 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      color: #0056b3;
+      border-bottom: 2px solid #0056b3;
+      padding-bottom: 10px;
+    }
+
+    .contact-detail {
+      margin-bottom: 20px;
+    }
+
+    .contact-detail strong {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .contact-detail a {
+      color: #0056b3;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .contact-detail a:hover {
+      color: #003d7a;
+      text-decoration: underline;
+    }
+
+    .address-lines {
+      line-height: 1.6;
+    }
+
+    .contact-form {
+      flex: 1;
+      min-width: 300px;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    .contact-form textarea {
+      height: 120px;
+    }
+
+    .contact-form button {
+      background-color: #0056b3;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .contact-form button:hover {
+      background-color: #003d7a;
     }
   </style>
 </head>
@@ -371,7 +473,7 @@
         <p>Get stronger every day</p>
       </div>
       <div class="flashcard">
-        <img src="https://i.imgur.com/Q1PSFcC.jpeg" alt="Personal Training" /> <!-- Use the attached file for personal training -->
+        <img src="https://i.imgur.com/Q1PSFcC.jpeg" alt="Personal Training" />
         <h3>Personal Training</h3>
         <p>Training tailored to your needs</p>
       </div>
@@ -383,164 +485,86 @@
     </div>
   </div>
 
-  <!-- Gallery Section -->
   <div class="gallery" id="gallery">
     <h2>Our Gym</h2>
     <div class="gallery-grid">
       <div class="gallery-item">
-        <img src="https://imgur.com/xfRe648.jpeg" alt="Tigon Fitness Gym 1"> <!-- Use your uploaded PNG files -->
+        <img src="https://imgur.com/xfRe648.jpeg" alt="Tigon Fitness Gym 1">
       </div>
       <div class="gallery-item">
-        <img src="https://imgur.com/Apnb4wi.jpeg" alt="Tigon Fitness Gym 2"> <!-- Use your uploaded PNG files -->
+        <img src="https://imgur.com/Apnb4wi.jpeg" alt="Tigon Fitness Gym 2">
       </div>
       <div class="gallery-item">
-        <img src="https://imgur.com/cSvA2cw.jpeg" alt="Tigon Fitness Gym 3"> <!-- Use your uploaded PNG files -->
+        <img src="https://imgur.com/cSvA2cw.jpeg" alt="Tigon Fitness Gym 3">
       </div>
       <div class="gallery-item">
-        <img src="https://i.imgur.com/0NWe2qq.jpeg" alt="Tigon Fitness Gym 4"> <!-- Use your uploaded PNG files -->
+        <img src="https://i.imgur.com/0NWe2qq.jpeg" alt="Tigon Fitness Gym 4">
       </div>
     </div>
   </div>
 
-  <!-- Testimonial Carousel Section -->
-<section class="testimonial-carousel-section" style="background-color: white; padding: 60px 20px;">
-  <h2 style="text-align: center; font-size: 2.2rem; margin-bottom: 40px; font-family: 'Playfair Display', serif;">What Our Clients Are Saying</h2>
-
-  <div class="carousel-container" style="position: relative; max-width: 800px; margin: 0 auto;">
-    <div class="testimonial-slide active" style="transition: opacity 0.5s ease;">
-      <p style="font-size: 1.2rem; font-style: italic; text-align: center;">“I had really good experience at Tigon gym, we have really good set of trainers there. They give individual attention to all”</p>
-      <p style="text-align: center; font-weight: bold; margin-top: 15px;">- Anjana Surendran.</p>
+  <section class="testimonial-carousel-section" style="background-color: white; padding: 60px 20px;">
+    <h2 style="text-align: center; font-size: 2.2rem; margin-bottom: 40px;">What Our Clients Are Saying</h2>
+    <div class="carousel-container" style="position: relative; max-width: 800px; margin: 0 auto;">
+      <div class="testimonial-slide active" style="transition: opacity 0.5s ease;">
+        <p style="font-size: 1.2rem; font-style: italic; text-align: center;">"I had really good experience at Tigon gym, we have really good set of trainers there. They give individual attention to all"</p>
+        <p style="text-align: center; font-weight: bold; margin-top: 15px;">- Anjana Surendran.</p>
+      </div>
+      <div class="testimonial-slide" style="display: none;">
+        <p style="font-size: 1.2rem; font-style: italic; text-align: center;">"Love Tigon Fitness! Clean, top-notch equipment, and amazing staff. Special shoutout to trainer Adarsh for his expertise and helpfulness. Highly recommend."</p>
+        <p style="text-align: center; font-weight: bold; margin-top: 15px;">- Tamilarasu Kannazhagan.</p>
+      </div>
+      <div class="testimonial-slide" style="display: none;">
+        <p style="font-size: 1.2rem; font-style: italic; text-align: center;">"This gym is fantastic—clean, well-equipped, and super beginner-friendly! The supportive environment makes it easy to get started and stay motivated."</p>
+        <p style="text-align: center; font-weight: bold; margin-top: 15px;">- Vamsidhar Kolukuluri.</p>
+      </div>
+      <div class="carousel-dots" style="text-align: center; margin-top: 30px;">
+        <span class="dot active" onclick="showSlide(0)"></span>
+        <span class="dot" onclick="showSlide(1)"></span>
+        <span class="dot" onclick="showSlide(2)"></span>
+      </div>
     </div>
-    <div class="testimonial-slide" style="display: none;">
-      <p style="font-size: 1.2rem; font-style: italic; text-align: center;">“Love Tigon Fitness! Clean, top-notch equipment, and amazing staff. Special shoutout to trainer Adarsh for his expertise and helpfulness. Highly recommend.”</p>
-      <p style="text-align: center; font-weight: bold; margin-top: 15px;">- Tamilarasu Kannazhagan.</p>
+  </section>
+
+  <section style="background-color: #fff; padding: 60px 20px;">
+    <h2 class="why-choose-us">Why Choose Tigon Fitness?</h2>
+    <div class="flashcards" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+      <div class="flashcard" style="background-color: #fff; width: 250px; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <h3 style="font-size: 1.5em; margin-bottom: 10px; color: #0056b3;">Supportive Environment</h3>
+        <p style="font-size: 1.1em; color: #555;">We prioritize your well-being and growth in a space where you feel welcomed and supported.</p>
+      </div>
+      <div class="flashcard" style="background-color: #fff; width: 250px; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <h3 style="font-size: 1.5em; margin-bottom: 10px; color: #0056b3;">Top-notch Equipment</h3>
+        <p style="font-size: 1.1em; color: #555;">From equipment to expert-led sessions, we ensure you have everything to achieve your goals.</p>
+      </div>
+      <div class="flashcard" style="background-color: #fff; width: 250px; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <h3 style="font-size: 1.5em; margin-bottom: 10px; color: #0056b3;">Expert Trainers</h3>
+        <p style="font-size: 1.1em; color: #555;">Our certified trainers provide personalized attention to help you reach your fitness goals.</p>
+      </div>
+      <div class="flashcard" style="background-color: #fff; width: 250px; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <h3 style="font-size: 1.5em; margin-bottom: 10px; color: #0056b3;">Thriving Community</h3>
+        <p style="font-size: 1.1em; color: #555;">Be part of a motivating and positive community that encourages each other every step of the way.</p>
+      </div>
     </div>
-    <div class="testimonial-slide" style="display: none;">
-      <p style="font-size: 1.2rem; font-style: italic; text-align: center;">“This gym is fantastic—clean, well-equipped, and super beginner-friendly! The supportive environment makes it easy to get started and stay motivated.”</p>
-      <p style="text-align: center; font-weight: bold; margin-top: 15px;">- Vamsidhar Kolukuluri.</p>
-    </div>
+  </section>
 
-    <!-- Grey Dots -->
-    <div class="carousel-dots" style="text-align: center; margin-top: 30px;">
-      <span class="dot active" onclick="showSlide(0)"></span>
-      <span class="dot" onclick="showSlide(1)"></span>
-      <span class="dot" onclick="showSlide(2)"></span>
-    </div>
-  </div>
-</section>
+  <section id="membership-form">
+    <h2>Membership Form</h2>
+    <form style="max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;">
+      <input type="text" placeholder="Your Name" required style="padding: 12px; font-size: 1em;" />
+      <input type="email" placeholder="Your Email" required style="padding: 12px; font-size: 1em;" />
+      <input type="tel" placeholder="Your Phone Number" required style="padding: 12px; font-size: 1em;" />
+      <select required style="padding: 12px; font-size: 1em;">
+        <option value="">Select Membership Type</option>
+        <option value="monthly">Monthly</option>
+        <option value="quarterly">Quarterly</option>
+        <option value="yearly">Yearly</option>
+      </select>
+      <button type="submit" class="cta-button" style="align-self: center;">Submit</button>
+    </form>
+  </section>
 
-<!-- Carousel Styles -->
-<style>
-  .dot {
-    height: 12px;
-    width: 12px;
-    margin: 0 6px;
-    background-color: grey;
-    border-radius: 50%;
-    display: inline-block;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  .dot.active {
-    background-color: #333;
-  }
-
-  .testimonial-slide {
-    position: absolute;
-    width: 100%;
-    opacity: 0;
-    transition: opacity 0.6s ease-in-out;
-  }
-
-  .testimonial-slide.active {
-    position: relative;
-    opacity: 1;
-    display: block;
-  }
-
-  .carousel-container {
-    position: relative;
-    height: 180px;
-  }
-
-  @media (max-width: 600px) {
-    .carousel-container {
-      height: 250px;
-    }
-  }
-</style>
-
-<!-- Carousel Functionality -->
-<script>
-  let currentIndex = 0;
-  const slides = document.querySelectorAll(".testimonial-slide");
-  const dots = document.querySelectorAll(".dot");
-
-  function showSlide(index) {
-    slides.forEach((slide, i) => {
-      slide.classList.remove("active");
-      slide.style.display = "none";
-      dots[i].classList.remove("active");
-    });
-
-    slides[index].classList.add("active");
-    slides[index].style.display = "block";
-    dots[index].classList.add("active");
-    currentIndex = index;
-  }
-
-  function autoSlide() {
-    currentIndex = (currentIndex + 1) % slides.length;
-    showSlide(currentIndex);
-  }
-
-  setInterval(autoSlide, 5000); // Change slide every 5 seconds
-  </script>
-
-  </div>
-<!-- Why Choose Us Section as Flashcards -->
-<section style="background-color: #fff; padding: 60px 20px;">
-  <h2 class="why-choose-us">Why Choose Tigon Fitness?</h2>
-  <div class="flashcards" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-    <div class="flashcard" style="background-color: #fff; width: 250px; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-      <h3 style="font-size: 1.5em; margin-bottom: 10px; color: #0056b3;">Supportive Environment</h3>
-      <p style="font-size: 1.1em; color: #555;">We prioritize your well-being and growth in a space where you feel welcomed and supported.</p>
-    </div>
-    <div class="flashcard" style="background-color: #fff; width: 250px; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-      <h3 style="font-size: 1.5em; margin-bottom: 10px; color: #0056b3;">Top-notch Equipment</h3>
-      <p style="font-size: 1.1em; color: #555;">From equipment to expert-led sessions, we ensure you have everything to achieve your goals.</p>
-    </div>
-    <div class="flashcard" style="background-color: #fff; width: 250px; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-      <h3 style="font-size: 1.5em; margin-bottom: 10px; color: #0056b3;">Expert Trainers</h3>
-      <p style="font-size: 1.1em; color: #555;">Our certified trainers provide personalized attention to help you reach your fitness goals.</p>
-    </div>
-    <div class="flashcard" style="background-color: #fff; width: 250px; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-      <h3 style="font-size: 1.5em; margin-bottom: 10px; color: #0056b3;">Thriving Community</h3>
-      <p style="font-size: 1.1em; color: #555;">Be part of a motivating and positive community that encourages each other every step of the way.</p>
-    </div>
-  </div>
-</section>
-
-<!-- Membership Form Section -->
-<section id="membership-form">
-  <h2>Membership Form</h2>
-  <form style="max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;">
-    <input type="text" placeholder="Your Name" required style="padding: 12px; font-size: 1em;" />
-    <input type="email" placeholder="Your Email" required style="padding: 12px; font-size: 1em;" />
-    <input type="tel" placeholder="Your Phone Number" required style="padding: 12px; font-size: 1em;" />
-    <select required style="padding: 12px; font-size: 1em;">
-      <option value="">Select Membership Type</option>
-      <option value="monthly">Monthly</option>
-      <option value="quarterly">Quarterly</option>
-      <option value="yearly">Yearly</option>
-    </select>
-    <button type="submit" class="cta-button" style="align-self: center;">Submit</button>
-  </form>
-</section>
-
-<!-- Contact Us Section -->
-<section class="contact-section">
+  <section class="contact-section">
     <h2>Contact Us</h2>
     <div class="contact-container">
       <div class="contact-info">
@@ -579,9 +603,34 @@
     </div>
   </section>
 
-<!-- Footer Section -->
-<footer style="background-color: #343a40; color: white; text-align: center; padding: 30px 20px; margin-top: 60px;">
-  <p style="margin: 0; font-size: 1em;">&copy; 2025 Tigon Fitness. All rights reserved.</p>
-</footer>
+  <footer style="background-color: #343a40; color: white; text-align: center; padding: 30px 20px; margin-top: 60px;">
+    <p style="margin: 0; font-size: 1em;">&copy; 2025 Tigon Fitness. All rights reserved.</p>
+  </footer>
+
+  <script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll(".testimonial-slide");
+    const dots = document.querySelectorAll(".dot");
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.remove("active");
+        slide.style.display = "none";
+        dots[i].classList.remove("active");
+      });
+
+      slides[index].classList.add("active");
+      slides[index].style.display = "block";
+      dots[index].classList.add("active");
+      currentIndex = index;
+    }
+
+    function autoSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    setInterval(autoSlide, 5000);
+  </script>
 </body>
 </html>
